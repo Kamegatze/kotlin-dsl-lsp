@@ -1,0 +1,11 @@
+[package]
+name = "kotlin-dsl-lsp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde_json = "1.0.149"
+tokio = {version = "1.49.0", features = ["full"]}
+
+[dependencies.tower-lsp]
+version = "0.20.0"
